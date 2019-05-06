@@ -8,7 +8,7 @@ public class TestCajaDeAhorros {
 	@Test
 	public void test() {
 		
-		CajaDeAhorros caja = new CajaDeAhorros(1508, "Jen", "Lawrence");
+		CajaDeAhorros caja = new CajaDeAhorros(2026, "Jen", "Lawrence");
 		
 		caja.depositar(100.0);
 		caja.extraer(10.0);
