@@ -10,8 +10,8 @@ public class TestCuentaSueldo {
 	public void test() {
 		
 		    CuentaSueldo cuenta = new CuentaSueldo();
-			cuenta.depositar(500.0D);
-			Double sueldoEsperado=500.0D;
+			cuenta.depositar(600.0D);
+			Double sueldoEsperado=600.0D;
 			Double sueldoActual= cuenta.getSaldo();
 			assertEquals(sueldoEsperado, sueldoActual);
 			
