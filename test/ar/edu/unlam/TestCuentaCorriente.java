@@ -12,7 +12,7 @@ public class TestCuentaCorriente {
 	public void test() {
 		
 		CuentaCorriente cuenta = new CuentaCorriente();
-		cuenta.depositar(300.0D);
+		cuenta.depositar(300.0D);   
 		Double esperado = 300.0;
 		Double actual = cuenta.getSaldo();
 		assertEquals(esperado , actual);
